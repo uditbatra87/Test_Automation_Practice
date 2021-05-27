@@ -13,7 +13,7 @@ pipeline {
                 git 'https://github.com/uditbatra87/Test_Automation_Practice.git'
 
                 // To run Maven on a Windows agent, use
-                // bat "mvn -Dmaven.test.failure.ignore=true clean package"
+                 bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
 
             post {
